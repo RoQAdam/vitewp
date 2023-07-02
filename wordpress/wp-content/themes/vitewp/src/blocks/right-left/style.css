@@ -1,0 +1,34 @@
+.block-right-left.animation {
+    animation-delay: 0s;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.55, 0, .21, 1);
+}
+
+.block-right-left.animation.fadein,
+.block-right-left.animation.fadeinleft,
+.block-right-left.animation.fadeintop,
+.block-right-left.animation.fadeinright,
+.block-right-left.animation.fadeinbottom {
+    opacity: 0;
+}
+
+.block-right-left.animation.fadein.animated {
+    animation-name: fadeIn;
+}
+
+.block-right-left.animation.fadeinleft.animated {
+    animation-name: fadeInLeft;
+}
+
+.block-right-left.animation.fadeintop.animated {
+    animation-name: fadeInTop;
+}
+
+.block-right-left.animation.fadeinright.animated {
+    animation-name: fadeInRight;
+}
+
+.block-right-left.animation.fadeinbottom.animated {
+    animation-name: fadeInBottom;
+}
