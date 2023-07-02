@@ -1,0 +1,10 @@
+*.log
+
+wordpress/wp-content/themes/*/dist
+wordpress/wp-content/themes/*/node_modules
+
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+.vscode
+node_modules/
