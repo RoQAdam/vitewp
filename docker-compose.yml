@@ -5,7 +5,7 @@ services:
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=vitewp
+      - MYSQL_DATABASE=zadanie_rekrutacyjne
       - MYSQL_USER=root
       - MYSQL_PASSWORD=root
     ports:
@@ -23,7 +23,7 @@ services:
       - WORDPRESS_DB_HOST=db:3306
       - WORDPRESS_DB_USER=root
       - WORDPRESS_DB_PASSWORD=root
-      - WORDPRESS_DB_NAME=vitewp
+      - WORDPRESS_DB_NAME=zadanie_rekrutacyjne
     volumes:
       - ./wordpress:/var/www/html
 volumes:
