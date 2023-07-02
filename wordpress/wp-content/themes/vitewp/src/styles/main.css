@@ -1,0 +1,92 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./animations.css";
+
+@layer components {
+    .navigation.active .menu-container {
+        @apply absolute top-[100px] left-0 right-0 h-[100vh] bg-main;
+    }
+
+    .navigation.active .main-navigation  {
+        @apply flex flex-wrap container px-6 mx-auto gap-y-4;
+    }
+
+    .navigation.active .menu-item {
+        @apply w-full;
+    }
+
+    .admin-bar .navigation.sticky-pos {
+        @apply fixed top-0 md:top-[46px] md:top-[32px]  w-full z-50;
+    }
+
+    .navigation.sticky-pos {
+        @apply sticky top-0 w-full;
+    }
+
+    .rating.star05 {
+        @apply w-star05;
+    }
+    
+    .rating.star1 {
+        @apply w-star1;
+    }
+    
+    .rating.star15 {
+        @apply w-star15;
+    }
+    
+    .rating.star2 {
+        @apply w-star2;
+    }
+    
+    .rating.star25 {
+        @apply w-star25;
+    }
+    
+    .rating.star3 {
+        @apply w-star3;
+    }
+    
+    .rating.star35 {
+        @apply w-star35;
+    }
+    
+    .rating.star4 {
+        @apply w-star4;
+    }
+    
+    .rating.star45 {
+        @apply w-star45;
+    }
+    
+    .rating.star5 {
+        @apply w-star5;
+    }
+
+    .image-l {
+        @apply flex-row;
+    }
+
+    .image-r {
+        @apply flex-row-reverse;
+    }
+}
+
+.block-testimonials .swiper {
+    padding-bottom: 50px !important;
+}
+
+body {
+    height: 1500px;
+}
+
+body.menu-opened {
+    overflow: hidden;
+}
+
+p,
+ul,
+ol {
+    margin-bottom: 16px;
+}
