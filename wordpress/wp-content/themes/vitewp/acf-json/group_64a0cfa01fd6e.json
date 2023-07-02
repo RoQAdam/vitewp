@@ -1,0 +1,86 @@
+{
+    "key": "group_64a0cfa01fd6e",
+    "title": "CPT: Opinions",
+    "fields": [
+        {
+            "key": "field_64a0d0507e281",
+            "label": "Author",
+            "name": "author",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "authors"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "filters": [
+                "search"
+            ],
+            "return_format": "id",
+            "min": 1,
+            "max": 1,
+            "elements": ""
+        },
+        {
+            "key": "field_64a0cfa17e280",
+            "label": "Rating",
+            "name": "rating",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "05": ".5 Stars",
+                "1": "1 Stars",
+                "15": "1.5 Stars",
+                "2": "2 Stars",
+                "25": "2.5 Stars",
+                "3": "3 Stars",
+                "35": "3.5 Stars",
+                "4": "4 Stars",
+                "45": "4.5 Stars",
+                "5": "5 Stars"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "opinions"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1688265394
+}
